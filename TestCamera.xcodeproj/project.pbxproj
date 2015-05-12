@@ -14,6 +14,11 @@
 		EC462A461AFB06EC00CDBF5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC462A451AFB06EC00CDBF5A /* Images.xcassets */; };
 		EC462A491AFB06EC00CDBF5A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC462A471AFB06EC00CDBF5A /* LaunchScreen.xib */; };
 		EC462A551AFB06ED00CDBF5A /* TestCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC462A541AFB06ED00CDBF5A /* TestCameraTests.m */; };
+		EC462A701AFB33A400CDBF5A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC462A6F1AFB33A400CDBF5A /* AVFoundation.framework */; };
+		EC462A731AFB33AB00CDBF5A /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC462A711AFB33AB00CDBF5A /* CoreFoundation.framework */; };
+		EC462A741AFB33AB00CDBF5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC462A721AFB33AB00CDBF5A /* Foundation.framework */; };
+		EC462A761AFB33B100CDBF5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC462A751AFB33B100CDBF5A /* UIKit.framework */; };
+		EC794BBF1B0250C30097F82C /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = EC794BBE1B0250C30097F82C /* ViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,12 @@
 		EC462A4E1AFB06ED00CDBF5A /* TestCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC462A531AFB06ED00CDBF5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC462A541AFB06ED00CDBF5A /* TestCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCameraTests.m; sourceTree = "<group>"; };
+		EC462A6F1AFB33A400CDBF5A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EC462A711AFB33AB00CDBF5A /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		EC462A721AFB33AB00CDBF5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC462A751AFB33B100CDBF5A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC794BBD1B0250C30097F82C /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		EC794BBE1B0250C30097F82C /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +58,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC462A761AFB33B100CDBF5A /* UIKit.framework in Frameworks */,
+				EC462A731AFB33AB00CDBF5A /* CoreFoundation.framework in Frameworks */,
+				EC462A741AFB33AB00CDBF5A /* Foundation.framework in Frameworks */,
+				EC462A701AFB33A400CDBF5A /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,10 @@
 		EC462A2C1AFB06EC00CDBF5A = {
 			isa = PBXGroup;
 			children = (
+				EC462A751AFB33B100CDBF5A /* UIKit.framework */,
+				EC462A711AFB33AB00CDBF5A /* CoreFoundation.framework */,
+				EC462A721AFB33AB00CDBF5A /* Foundation.framework */,
+				EC462A6F1AFB33A400CDBF5A /* AVFoundation.framework */,
 				EC462A371AFB06EC00CDBF5A /* TestCamera */,
 				EC462A511AFB06ED00CDBF5A /* TestCameraTests */,
 				EC462A361AFB06EC00CDBF5A /* Products */,
@@ -85,6 +104,8 @@
 				EC462A3D1AFB06EC00CDBF5A /* AppDelegate.m */,
 				EC462A3F1AFB06EC00CDBF5A /* ViewController.h */,
 				EC462A401AFB06EC00CDBF5A /* ViewController.m */,
+				EC794BBD1B0250C30097F82C /* ViewController2.h */,
+				EC794BBE1B0250C30097F82C /* ViewController2.m */,
 				EC462A421AFB06EC00CDBF5A /* Main.storyboard */,
 				EC462A451AFB06EC00CDBF5A /* Images.xcassets */,
 				EC462A471AFB06EC00CDBF5A /* LaunchScreen.xib */,
@@ -220,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC462A411AFB06EC00CDBF5A /* ViewController.m in Sources */,
+				EC794BBF1B0250C30097F82C /* ViewController2.m in Sources */,
 				EC462A3E1AFB06EC00CDBF5A /* AppDelegate.m in Sources */,
 				EC462A3B1AFB06EC00CDBF5A /* main.m in Sources */,
 			);
@@ -418,6 +440,7 @@
 				EC462A5A1AFB06ED00CDBF5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC462A5B1AFB06ED00CDBF5A /* Build configuration list for PBXNativeTarget "TestCameraTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +449,7 @@
 				EC462A5D1AFB06ED00CDBF5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
