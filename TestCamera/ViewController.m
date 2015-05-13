@@ -73,8 +73,6 @@ UIImage *image;
     
     //開始影像
     [session startRunning];
-    
-    
 }
 
 - (IBAction)takePhoto:(id)sender
